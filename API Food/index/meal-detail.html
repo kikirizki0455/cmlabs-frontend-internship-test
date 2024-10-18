@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Detail | MealApp</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+  <!-- Breadcrumb Section -->
+  <div class="container mt-4">
+    <nav id="breadcrumb">
+    </nav>
+  </div>
+  
+  <div class="container">
+      <h1 class="text-center my-4">Meal Detail</h1>
+      <h5>Video Recipe:</h5>
+      <div id="youtube-video"></div>
+      <div class="row" id="mealDetail">
+          <div class="col-md-6">
+              <img id="meal-image" class="img-fluid" alt="Meal Image">
+          </div>
+          <div class="col-md-6">
+              <h2 id="meal-title"></h2>
+              <h5>Instructions:</h5>
+              <p id="meal-instructions"></p>
+              <h5>Ingredients:</h5>
+              <ul id="meal-recipe"></ul>
+          </div>
+      </div>
+  </div>
+
+  <script src="../script/meal-detail.js"></script>
+</body>
+</html>
